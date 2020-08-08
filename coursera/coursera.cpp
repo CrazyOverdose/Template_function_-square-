@@ -12,7 +12,6 @@ template <typename Container> Container Sqr(Container& a);
 template <typename Element> vector <Element> operator *(vector <Element>& a, vector <Element>& b);
 template <typename Element_1, typename Element_2 > pair <Element_1, Element_2> operator *(pair <Element_1, Element_2>& a, pair <Element_1, Element_2>& b);
 
-
 template <typename Element>
 vector <Element> operator *(vector <Element>& a, vector <Element>& b) {
 	for (auto& i : a) {
